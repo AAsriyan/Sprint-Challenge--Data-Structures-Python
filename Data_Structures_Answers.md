@@ -11,8 +11,8 @@ Add your answers to the questions below.
 
 5. What is the runtime complexity of the provided code in `names.py`? O(n^2) since it's a nested loop
 
-6. What is the space complexity of the provided code in `names.py`? O(n) simplified, but technically 2n since we have two lists of names with an n size
+6. What is the space complexity of the provided code in `names.py`? O(n) simplified, but technically 3n since we have two lists of names with an n size and we are creating a duplicates list which could be n as the worst case.
 
-7. What is the runtime complexity of your optimized code in `names.py`?
+7. What is the runtime complexity of your optimized code in `names.py`? O(n) linear simplified, O(2n) since I am running two loops separately.
 
-8. What is the space complexity of your optimized code in `names.py`?
+8. What is the space complexity of your optimized code in `names.py`? O(n) linear simplified, O(4n) since we have the two two lists of names, a duplicates list and now a names hash table which could all be n at worst case.

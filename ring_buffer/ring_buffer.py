@@ -13,7 +13,7 @@ class RingBuffer:
         self.current += 1
 
     def get(self):
-        return [self.storage[i] for i in range(0, len(self.storage)) if self.storage[i] is not None]
+        return [i for i in self.storage if i is not None]
 
 
 ringB = RingBuffer(3)
